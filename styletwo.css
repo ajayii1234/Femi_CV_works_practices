@@ -1,0 +1,79 @@
+.parent{
+	background-color:black;
+	display:flex;
+	padding:20px;
+	gap:20px;
+	justify-content:center;
+	align-items:center;
+	
+}
+.parent div{
+	
+ width:30%;
+ background:linear-gradient(90deg, rgba(144,5,6,1) 0%, rgba(5,19,37,1) 100%);
+ min-height:200px;
+ border:1px solid red;
+
+}
+.standalone{
+	height:200px;
+	background:linear-gradient(45deg, green, purple);
+	
+}
+.shadowbox{
+		height:100px;
+		width:100px;
+		background:white;
+		margin:10px auto;
+		box-shadow:1px 5px 10px white;
+	
+}
+.shadowbox:hover{
+	background:pink;
+	border-radius:50%;
+	
+}
+
+a{
+	padding:10px 20px;
+	background:blue;
+	color:white;
+	text-decoration:none;
+	
+	
+}
+
+a:hover{
+	background:white;
+	color:darkblue;
+	border:1px solid red;
+	
+}
+
+.parent div:nth-child(odd){
+	background:white;
+}
+
+
+@media screen and (max-width:480px) {
+	.parent{
+		flex-direction:column
+	}
+	.parent div{
+	width:90%;	
+	}
+	
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+	.parent{
+		flex-wrap:wrap;
+	}
+	
+	.parent div{
+		width:40%;
+	}
+	
+	
+	
+}

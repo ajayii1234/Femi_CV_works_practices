@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html>
+<head>
+	<title>Introduction to css</title>
+	
+	<style type="text/css">
+		/*  This is how comment of css will look like
+		when using the tag from html as an attribute, we do not use any symbol
+			but when using attribute from html as attribute in css, you must use []
+		
+		*/
+		h1{
+			color:white;
+			background-color:black;
+			padding:20px;
+			
+		}
+		input{
+			display:block;
+			font-size:24px;
+			padding:20px;
+			margin:20px;
+			
+			}
+		[type="button"]{
+			display:block;
+			background-color:green;
+			padding:20px;
+			font-size:24px;
+			margin:20px;
+			border:2px solid blue;
+		}
+	
+		[type="password"]{
+		
+			border:2px solid red;
+		
+		}
+	
+	</style>
+
+</head>
+
+<body>
+	<p style="cursor:pointer">This is a paragraph</p>
+	
+	<a href="#">Go somewhere</a>
+	<h3 style="color:red;background-color:black;padding:20px;">This is example of Inline styling<h3>
+	<p style="color:red">I love programming</p>
+	<p style="color:red">I love Jesus</p>
+	<p style="color:red">I am happy</p>
+	<h1>Watch out for what happens in css</h1>
+	<h1>This is another h1</h1>
+	
+	<form>
+		<input type="text" placeholder="fullname">
+		<input type="text" placeholder="email">
+		<input type="text" placeholder="username">
+		<br><br>
+		<input type="text" name="user" placeholder="Name">
+		<input type="password" size="40" name="pwd" placeholder="Password">
+		<input type="button" value="Sign Up">
+		
+	</form>
+
+</body>
+
+</html>

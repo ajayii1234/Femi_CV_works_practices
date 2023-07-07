@@ -1,0 +1,55 @@
+h1{
+	color:blue;
+	font-size:24px;
+}
+
+#{
+	font-family:lato, san-serif;
+}
+body{
+	min-height:3000px;
+}
+h2{
+	position:fixed;
+	background-color:red;
+	right:20px;
+	
+}
+#group{
+
+	position:fixed;
+	right:10px;
+	bottom:10px;
+	background-color:red;
+	padding:20px;
+		
+}
+#group a{
+	color:white;
+	text-decoration:none;
+	font-size:30px;
+	
+}
+#paraone{
+	border:2px solid red;
+	position:sticky;
+	top:10px;
+}
+#paratwo{
+	position:sticky;
+	background-color:#a3a3a3;
+	top:20px;
+}
+h3{
+	color:tomato;
+	position:absolute;	
+	top:0px;
+	left:0px;
+	background-color:black;
+	padding:20px;
+}
+#parent{
+		position:relative;
+		height:200px;
+		background:blue;
+}
